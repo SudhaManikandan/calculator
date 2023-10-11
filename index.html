@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./js/responsive.css">
+<link rel="stylesheet" href="./js/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+<div class="row justify-content-center align-items-center vh-100 clr">
+<div class="col-12 col-lg-4 col-md-9">
+<div class="p-4 cal_b">
+<p class="text  fs-3 text-light  fw-bold">Calculator</p>
+<div class="d-flex align-item center">
+<input type="type" name="" class="ans w-100 input_align placeholder="0" id="input">
+<button type="submit" class=" ans fw-bold button-color1 ms-2" onclick="clear()">AC</button>
+</div>
+<div class="d-flex  justify-content-between mt-4">
+<button type="submit" class="fw-bold button-color" onclick="num('7')" id="sevan_7">7</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('8')">8</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('9')">9</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('+')"><i class="fa fa-plus"aria-hidden="true"></i></button>	
+</div>
+<div class="d-flex  justify-content-between mt-4">
+<button type="submit" class="fw-bold button-color" onclick="num('4')" >4</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('5')">5</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('6')">6</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('-')"><i class="fa fa-minus"aria-hidden="true"></i></button>	
+</div>
+<div class="d-flex  justify-content-between mt-4">
+<button type="submit" class="fw-bold button-color" onclick="num('1')" >1</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('2')">2</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('3')">3</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('*')"><i class="fa fa-times" aria-hidden="true"></i></button>	
+</div>
+<div class="d-flex  justify-content-between mt-4">
+<button type="submit" class="fw-bold button-color" onclick="num('0')" >0</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('.')"><i class="bi bi-dot"></i>.</button>	
+<button type="submit" class="fw-bold button-color" onclick="res('=')">=</button>	
+<button type="submit" class="fw-bold button-color" onclick="num('/')"><i class="fa fa-percentage" aria-hidden="true"></i>%</button>	
+</div>
+</div>
+</div>
+</div>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+<html>
