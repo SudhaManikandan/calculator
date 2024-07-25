@@ -1,9 +1,11 @@
-var input=document.getElementById("input")
+var input=document.getElementById("input");
 function num(f){
 	input.value+=f
 }
-function clear(){
-	input.value=innerHTML=""
+function clearInput() {
+	var input=document.getElementById("input");
+	input.value=innerHTML="";
+	console.log("clear");
 	}
 	function res(){
 		var math=eval(input.value)
